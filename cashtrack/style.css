@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .background {
+    background: linear-gradient(120deg, #777 50%, #231f20 50%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-title {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .login-box {
+    background-color: #3f3f3f;
+
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    color: white;
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    background-color: #d3d3d3;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .entrar {
+    background: none;
+    border: none;
+    color: white;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .criar-conta {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .toggle {
+    width: 40px;
+    height: 20px;
+    background: #111;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2px;
+  }
+  
+  .toggle .circle {
+    width: 16px;
+    height: 16px;
+    background: #ccc;
+    border-radius: 50%;
+  }
+  
